@@ -11,6 +11,7 @@ class DataBase
 
     public static function connectDB()
     {
+        /*Connect to  DB */
         $user = self::USER;
         $password = self::PASSWORD;
         $host = self::HOST;

@@ -6,6 +6,8 @@ class Routing
 
     public static function buildRoute() {
         /*This method build route */
+        /*Default route is User*/
+        
         $controllerName = "UserController";
         $modelName = "UserModel";
         $action = "index";
