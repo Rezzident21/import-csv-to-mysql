@@ -21,14 +21,7 @@ class UserController extends Controller
 
         session_start();
 
-        if (isset($_POST['submit'])) {
-            if ($_SESSION['token'] === $_POST['token']) {
-                //обрабатываем форму
-                $_SESSION['token'] = 'rand';
-            } else {
-                //Выдаем ошибку о повторной отправке
-            }
-        }
+     
 
             if ($_FILES) {
                 $file = $_FILES['csv']['name'];
