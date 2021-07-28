@@ -16,7 +16,7 @@ class UserController extends Controller
         /*
          * This method updload csv file
          */
-        $this->pageData['title'] = "Import users";
+        $this->pageData['title'] = "Imports users";
         $this->pageData['users'] = $this->model->getAllUsers();
 
         session_start();
